@@ -2,11 +2,15 @@
 @import url(./fonts.css); 
 /* css variable*/
 @import url(./partials/_variables.css);
+/* google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
 
 *{
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+
 }
 
 
@@ -36,15 +40,6 @@ nav{
   align-items: center;
   justify-content: space-between;
 }
-.burger div{
-  width: 25px;
-  height: 4px;
-  background-color: #330033;
-  margin: 5px;
-}
-.burger{
-  display: none;
-}
 
   
 
@@ -59,11 +54,28 @@ nav ul li a{
   text-decoration: none;
   color:black;
   font-weight: bolder;
+  padding: 7px 13px;
+  border-radius: 3PX;
+  
   
 }
 
 nav ul li a:hover{
-  color:#660066;
+  color: white;
+  background-color: #993399;
+}
+.checkbtn{
+  display: none;
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  
+}
+#check{
+  display: none;
 }
 .contnt{
   margin-left: 8%;
@@ -73,7 +85,7 @@ nav ul li a:hover{
   font-size: 45px;
   color: #660066;
   margin-bottom: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  
 }
 span{
   color: black;
@@ -103,7 +115,7 @@ span{
   right: 100px;
 }
 .design img{
-  height: 100%;
+  height: 98%;
   position: absolute;
   left: 50%;
   bottom: 0%;
@@ -238,62 +250,59 @@ background-color:#660066 ;
     background: linear-gradient(to bottom, #cc66ff 0%, #ffcccc 100%);
   }
   
-  nav ul {
-    position: absolute;
-    right: 0px;
-    height: 45vh;
-    top: 12vh;
-    background-color: #cc66ff;
-    opacity: 0.9;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 56%;
-    transform: translateX(100%);
-    transition: tranform 0.5 ease-in;
-
-  }
-
-  nav ul li {
-    opacity: 0;
-  }
-  nav-active{
-    transform: translateX(0%);
-  }
-  .burger{
+  
+  .checkbtn{
     display: block;
-    right: 4px;
-    cursor: pointer;
+    float: right;
   }
-
+  nav ul{
+    position: fixed;
+    width: 60%;
+    height: 70vh;
+    
+    background: #ecc6ec;
+    top: 80px;
+    left: 0;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  nav ul li a:hover{
+    background: none;
+    color: whitesmoke;
+  }
   .design img{
     width:400px;
     height: auto;
-    top: 100%;
+    top: 120%;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
   }
   .container{
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 110%;
+    display: flex;
+   flex-wrap: wrap;
+   margin-top: 110%;
  
   }
   
-.box{
-  align-items: center;
-}
+  .box{
+   align-items: center;
+  }
   .contnt h1{
     font-size: larger;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-}
-@keyframes navlinkFade {
-  from{
-    opacity: 0;
-    transform: translateX(50px);
 
-  }
-  to{
-    opacity: 1;
-    transform: translateX(0px);
-  }
+  .design:hover .gamebox{
+    bottom: 70%;
+ }
+ 
+ .design:hover .boy{
+   left: 55%;
+ }
 }
