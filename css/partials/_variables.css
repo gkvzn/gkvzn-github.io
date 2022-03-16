@@ -1,0 +1,24 @@
+
+
+
+html,body{
+    margin:0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* css variable */
+:root{
+    --primary-color:#4458dc;
+    --primary-color2:#854fee;
+    --title-color: black;
+    --border-color:#201f1f17;
+    --gradient-color: #ff0000;
+
+
+}
+
+/* font family variable. */
+--roboto: "Roboto", cursive;
