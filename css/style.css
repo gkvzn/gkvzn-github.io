@@ -293,23 +293,26 @@ background-color:#660066 ;
   .design img{
     width:400px;
     height: auto;
-    top: 120%;
+    top: 103%;
     transform: translateX(-50%);
     transition: bottom 1s, left 1s;
+    background-color: ;
   }
   .container{
     display: flex;
    flex-wrap: wrap;
-   margin-top: 110%;
+   margin-top: 108%;
  
   }
   
   .box{
    align-items: center;
+   
+   
   }
   .contnt h1{
     font-size: larger;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
   }
 
   .design:hover .gamebox{
