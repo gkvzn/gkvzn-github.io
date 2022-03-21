@@ -37,6 +37,7 @@ nav{
   padding: 10px 0;
   align-items: center;
   justify-content: space-between;
+  
 }
 
   
@@ -60,7 +61,7 @@ nav ul li a{
 
 nav ul li a:hover{
   color: white;
-  background-color: #993399;
+  background: linear-gradient(to bottom left, #ff0000 0%, #3333ff 100%);
 }
 .checkbtn{
   display: none;
@@ -96,7 +97,8 @@ span{
 }
 
 .contnt a{
-  background: #330033;
+  
+  background: linear-gradient(to bottom left, #ff0000 0%, #3333ff 100%);
   padding: 10px 18px;
   text-decoration: none;
   font-weight: bold;
@@ -133,7 +135,8 @@ span{
 section{
   top: 180px;
   bottom: 0%;
-  background: linear-gradient(to top, #9900cc 0%, #9966ff 100%);
+  
+  background: linear-gradient(to bottom left, #ff0000 0%, #3333ff 100%);
 }
 
 .container {
@@ -247,7 +250,8 @@ background-color:#660066 ;
     overflow-x: hidden;
   }
   .Roger{
-    background: linear-gradient(to bottom, #cc66ff 0%, #ffcccc 100%);
+   
+    background: linear-gradient(to bottom left, #ff0000 0%, #3333ff 100%);
   }
   
   
@@ -263,7 +267,7 @@ background-color:#660066 ;
     position: absolute;
     width: 50%;
     height: 60vh;
-    background: #cc99ff;
+    background: black;
     top: 120px;
     left: -100%;
     text-align: center;
@@ -278,13 +282,16 @@ background-color:#660066 ;
     display: block;
     margin: 50px 0;
     line-height: 30px;
+    
   }
   nav ul li a{
     font-size: 20px;
+    color: white;
   }
   nav ul li a:hover a.active{
     background: none;
-    color: whitesmoke;
+    color: white;
+    
   }
   #check:checked ~ ul{
     left: 180px;
@@ -310,7 +317,11 @@ background-color:#660066 ;
   }
   .contnt h1{
     font-size: larger;
+    color: white;
     
+  }
+  span{
+    color: whitesmoke;
   }
 
   .design:hover .gamebox{
@@ -329,6 +340,12 @@ background-color:#660066 ;
   position: relative;
   width: 100%;
   height: 100vh;
-  background: #FDDEF3;
+ background-color: white;
 
+}
+.shape{
+  opacity:0.6;
+  width: 20%;
+  position: relative;
+  padding-right: 0%;
 }
