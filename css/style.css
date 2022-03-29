@@ -348,10 +348,17 @@ background-color:#660066 ;
 }
 
 .port-cont{
-  margin-left: 8%;
+  margin-left: 6%;
   margin-top: 8%;
+  margin-right: 8%;
+  margin-bottom: 8%;
+  border-radius: 16px;
   
   min-height: 70vh;
+  font-size: 30px;
+  background: linear-gradient(to bottom left, #ff0000 0%, #3333ff 100%);
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
   
 }
 .port-cont h1{
@@ -359,11 +366,14 @@ background-color:#660066 ;
   color: white;
   -webkit-text-stroke: 0.3vw #993399;
   text-transform: uppercase;
+  margin-left: 9%;
+  opacity: 1;
   
 }
 .port-cont p{
-  font-size: large;
- color: #000;
+  font-size: 30px;
+  color: #000;
+ margin-left: 9%;
 }
 .port-cont h1::before{
   content: attr(data-text);
