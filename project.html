@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <title>GV PORTFOLIO</title>
+    <!-- Bootstrap css file-->
+   <link rel="stylesheet" href="./css/bootstrap.min.css">
+   
+    <!-- font awesome icons-->
+   <link  rel="stylesheet" href="./css/all.min.css">
+  
+    
+    <!--custom css file-->
+    <link  rel="stylesheet" href="./css/style.css">
+
+    <!--google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+</head>
+<body>
+    <div class="porto">
+      <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <img src="/img/logo.png" alt="logo" class="logol">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="portfolio.html">PORTFOLIO</a></li>
+          <li><a href="project.html">PROJECTS</a></li>
+          <li><a href="#">ABOUT</a></li>
+        </ul>
+      </nav> 
+        
+    </div>  
+    <div class="page">
+      <div class="port-cont">
+        <h1 data-text="PROJECTS..">PROJECTS..</h1>
+        <p>Hey, Wanna check my projects!! </p>
+         <!--<a href="#">ABOUT ME</a>  -->
+      </div>
+    <div class="sectionBx">
+        <div class="container-tilt">
+          <div class="tilt">
+            <div class="imgBx">
+              <img src="/img/ii.png">
+            </div>
+            <div class="contentBx">
+              <h2>EHR SYSTEM</h2>
+              <p>The EHR project is a very simple and basic CRUD system which lets doctors
+                 create, update, edit and delete patient records.Authentication 
+                 and Authorization is implemented. The frontend was done with 
+                 HTML5, CSS3, Javascript and Bootstrap. Backend was done with 
+                 the help of PHP and PhpMyAdmin.
+              </p>
+              <a href="https://github.com/gkvzn/EHR-SYSTEM">VISIT GITHUB</a>  
+            </div>
+          </div>
+        </div>
+        <div class="container-tilt">
+          <div class="tilt">
+            <div class="imgBx">
+              <img src="/img/vc.png">
+            </div>
+            <div class="contentBx">
+              <h2>Online Vaccination Certificate</h2>
+              <p>A basic Software code where people can view and
+                 download their vaccination Certificate with seperate
+                 user id (only Backend) Done with Python</p>
+                 <a href="https://github.com/gkvzn/Vaccination-certificate">VISIT GITHUB</a>  
+            </div>
+          </div>
+        </div>
+        <div class="container-tilt">
+          <div class="tilt">
+            <div class="imgBx">
+              <img src="/img/dv.png">
+            </div>
+            <div class="contentBx">
+              <h2>Data visualization</h2>
+              <p>Data visualization of the Comparing Germany's total hospital beds 
+                with its neighboring countries and the Recovery rate to help 
+                managing the hospital bed. Used libreries are  pandas,
+                  seaborn, numpy and Matplotlib.</p>
+                  <a href="https://github.com/gkvzn/datavisualize-Hospital-beds">VISIT GITHUB</a>  
+            </div>
+          </div>
+        </div>
+        <div class="container-tilt">
+          <div class="tilt">
+            <div class="imgBx">
+              <img src="/img/qq.jpg">
+            </div>
+            <div class="contentBx">
+              <h2></h2>
+              <p>Wanna see my projects and Github porfolio!!</p>
+              <a href="https://github.com/gkvzn">VISIT GITHUB</a>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <script type="text/javascript" src="/Js/vanilla-tilt.js"></script>
+      <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".tilt"), {
+          max: 25,
+          speed: 400
+        });
+        
+        //It also supports NodeList
+        VanillaTilt.init(document.querySelectorAll(".tilt"));
+      </script>
+      
+        
+
+
+</body>      

@@ -265,13 +265,15 @@ background-color:#660066 ;
   }
   nav ul{
     position: absolute;
-    width: 50%;
-    height: 60vh;
+    width: 48%;
+    height: 30vh;
     background: black;
     top: 120px;
     left: -100%;
     text-align: center;
     transition: all .5s;
+    
+
     
 
  
@@ -283,11 +285,12 @@ background-color:#660066 ;
   nav ul li{
     display: block;
     margin: 50px 0;
-    line-height: 30px;
+    line-height: 4px;
+    
     
   }
   nav ul li a{
-    font-size: 20px;
+    font-size: 16px;
     color: white;
   }
   nav ul li a:hover a.active{
@@ -537,32 +540,172 @@ background-color:#660066 ;
     align-items: center;
   
    
-   }
+  }
 
 
-    .card-list{
-      position: relative;
-      margin-top: 0px;
-    }
+  .card-list{
+    position: relative;
+    margin-top: 0px;
+  }
 
     
-.port-cont{
-  margin-left: 8%;
-  margin-top: 8%;
+  .port-cont{
+    margin-left: 8%;
+    margin-top: 8%;
   
-  min-height: 25vh;
+    min-height: 25vh;
+  }
+  .port-cont h1::before{
+    content: attr(data-text);
+    position: absolute;
+    margin-left: 2px;
+    margin-top: 2px;
+    width: 0%;
+    height: 10%;
+    color: black;
+    -webkit-text-stroke: 0vw #383d52;
+    border-right: 2px solid #660066;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+  }
+}    
+
+/*===================================projects=======================================================*/
+
+.sectionBx{ 
+  justify-content: center;
+  margin-top: 5%;
+  align-items: center;
+  min-height: 150vh;
+  background:linear-gradient(to bottom left, #ff0000 0%, #3333ff 100%);
 }
-    .port-cont h1::before{
-      content: attr(data-text);
-      position: absolute;
-      margin-left: 2px;
-      margin-top: 2px;
-      width: 0%;
-      height: 10%;
-      color: black;
-      -webkit-text-stroke: 0vw #383d52;
-      border-right: 2px solid #660066;
-      overflow: hidden;
-      animation: animate 6s linear infinite;
-    
+
+.sectionBx .container-tilt {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px 0;
+  margin-left: 28%;
+  transform-style: preserve-3d;
+}
+
+.sectionBx .container-tilt .tilt {
+  position: relative;
+  width: 450px;
+  height: 300px;
+  margin: 60px 0;
+  background: black;
+  transform-style: preserve-3d;
+  
+
+}
+.sectionBx .container-tilt .tilt:hover{
+  box-shadow: 0 50px 80px rgba(0,0,0,0.2);
+}
+
+
+.sectionBx .container-tilt .tilt .imgBx{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container-tilt .tilt .contentBx
+{
+  position:relative;
+  top: 70%;
+  left: 50px;
+  right: 50px;
+  background-color: #fff;
+  transform: translateZ(20px) scaleY(0);
+  padding: 40px 25px;
+  transform-origin: top;
+  transition: 0.5s;
+  transform-style: preserve-3d;
+}
+
+.sectionBx .container-tilt .tilt:hover .contentBx{
+  transform: translateZ(50px) scale(1);
+}
+
+.container-tilt .tilt .contentBx a{
+  text-decoration: none;
+  color:black;
+  font-weight: bolder;
+  padding: 7px 8px;
+  border-radius: 3px;
+  background-color: #993399;
+  
+  
+}
+
+.container-tilt .tilt .contentBx a:hover{
+  color: white;
+  background: linear-gradient(to bottom left, #ff0000 0%, #3333ff 100%);
+}
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (max-width: 768px){
+  .sectionBx{ 
+    justify-content: center;
+    margin-top: 5%;
+    align-items: center;
+    min-height: 20vh;
+    margin-bottom: 0px;
+    background:linear-gradient(to bottom left, #ff0000 0%, #3333ff 100%);
+  }
+  .sectionBx .container-tilt {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0;
+    margin-left: 1%;
+    transform-style: preserve-3d;
+  }
+  .sectionBx .container-tilt .tilt {
+    position: relative;
+  width: 10px;
+  height: 30px;
+  margin: 60px 0;
+  }
+  .sectionBx .container-tilt .tilt .imgBx{
+    position: relative;
+    top: 0;
+    left: 30px;
+    width: 2vmin;
+    height: 2vmin
+}
+.container-tilt .tilt .contentBx
+{
+  position:relative;
+  top: 70%;
+  left: 45px;
+  right: 5px;
+  width: 250px;
+  height: 180px;
+}
+img{
+  width: 300px;
+
+}
+.container-tilt .tilt .contentBx h2{
+  font-size: 1em;
+}
+.container-tilt .tilt .contentBx p{
+  font-size: .5em;
+}
+.container-tilt .tilt .contentBx a{
+  font-size: 10px;
+  border-radius: 2px;
+}
+.port-cont{
+  margin-left: 6%;
+  margin-top: 34%;
+  margin-right: 8%;
+  margin-bottom: 8%;
+  border-radius: 16px;
 }
