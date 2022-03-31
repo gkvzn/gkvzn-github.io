@@ -576,7 +576,7 @@ background-color:#660066 ;
   justify-content: center;
   margin-top: 5%;
   align-items: center;
-  min-height: 150vh;
+  min-height: 350vh;
   background:linear-gradient(to bottom left, #ff0000 0%, #3333ff 100%);
 }
 
@@ -708,4 +708,5 @@ img{
   margin-right: 8%;
   margin-bottom: 8%;
   border-radius: 16px;
+}
 }
