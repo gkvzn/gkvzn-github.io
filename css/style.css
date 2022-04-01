@@ -585,7 +585,7 @@ background-color:#660066 ;
   margin-top: 5%;
   align-items: center;
   min-height: 350vh;
-  overflow-x: hidden;
+  
   background:linear-gradient(to bottom left, #ff0000 0%, #3333ff 100%);
 }
 
@@ -597,7 +597,6 @@ background-color:#660066 ;
   padding: 50px 0;
   margin-left: 28%;
   transform-style: preserve-3d;
-  overflow-x: hidden;
   
 }
 
