@@ -550,6 +550,11 @@ background-color:#660066 ;
   
    
   }
+  .port-cont p{
+    font-size: 12px;
+    color: #000;
+   margin-left: 9%;
+  }
 
 
   .card-list{
