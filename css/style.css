@@ -266,8 +266,8 @@ background-color:#660066 ;
   }
   nav ul{
     position: absolute;
-    width: 48%;
-    height: 30vh;
+    width: 50%;
+    height: 27vh;
     background: black;
     top: 120px;
     left: -100%;
@@ -286,12 +286,12 @@ background-color:#660066 ;
   nav ul li{
     display: block;
     margin: 50px 0;
-    line-height: 4px;
+    line-height: 3px;
     
     
   }
   nav ul li a{
-    font-size: 16px;
+    font-size: 14px;
     color: white;
   }
   nav ul li a:hover a.active{
