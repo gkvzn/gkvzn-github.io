@@ -653,8 +653,7 @@ background-color:#660066 ;
     justify-content: center;
     margin-top: 5%;
     align-items: center;
-    min-height: 20vh;
-    margin-bottom: 0px;
+    min-height: 150vh;
     background:linear-gradient(to bottom left, #ff0000 0%, #3333ff 100%);
   }
   .sectionBx .container-tilt {
