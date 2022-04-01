@@ -561,6 +561,10 @@ background-color:#660066 ;
     position: relative;
     margin-top: 0px;
   }
+  .card-header h2{
+    font-size: large;
+    color: grey;
+  }
 
  /*================================animation project========================================*/   
   .port-cont{
