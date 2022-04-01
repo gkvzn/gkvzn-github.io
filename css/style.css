@@ -551,7 +551,7 @@ background-color:#660066 ;
    
   }
   .port-cont p{
-    font-size: 12px;
+    font-size: 30px;
     color: #000;
    margin-left: 9%;
   }
@@ -560,10 +560,6 @@ background-color:#660066 ;
   .card-list{
     position: relative;
     margin-top: 0px;
-  }
-  .card-header h2{
-    font-size: large;
-    color: grey;
   }
 
  /*================================animation project========================================*/   
@@ -733,4 +729,11 @@ img{
   border-radius: 2px;
 }
 
+}
+
+.port-cont .smedia{
+  width: 6%;
+}
+.port-cont  p{
+  font-size: 20px;
 }
