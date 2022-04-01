@@ -13,7 +13,10 @@
 
 }
 
-
+body{
+  overflow-y: scroll; /* has to be scroll, not auto */
+-webkit-overflow-scrolling: touch;
+}
 nav img{
   width: 300px;
 }
@@ -529,7 +532,11 @@ background-color:#660066 ;
 
  /* Small devices (tablets, 768px and up) */
 @media screen and (max-width: 768px){
-  
+  html{
+
+    overflow-x: hidden;
+   
+  }
   .container-1 {
     position: absolute;
     width: 100%;
@@ -572,11 +579,13 @@ background-color:#660066 ;
 
 /*===================================projects=======================================================*/
 
+
 .sectionBx{ 
   justify-content: center;
   margin-top: 5%;
   align-items: center;
   min-height: 350vh;
+  overflow-x: hidden;
   background:linear-gradient(to bottom left, #ff0000 0%, #3333ff 100%);
 }
 
@@ -588,6 +597,8 @@ background-color:#660066 ;
   padding: 50px 0;
   margin-left: 28%;
   transform-style: preserve-3d;
+  overflow-x: hidden;
+  
 }
 
 .sectionBx .container-tilt .tilt {
@@ -655,7 +666,10 @@ background-color:#660066 ;
     align-items: center;
     min-height: 150vh;
     background:linear-gradient(to bottom left, #ff0000 0%, #3333ff 100%);
-  }
+    overflow-x: hidden;
+
+    
+  } 
   .sectionBx .container-tilt {
     position: relative;
     display: flex;
