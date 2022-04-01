@@ -13,13 +13,14 @@
 
 }
 
-
 nav img{
   width: 300px;
 }
 
 
-
+html{
+  overflow-x: hidden;
+}
 
 
 .Roger{
